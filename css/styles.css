@@ -1,6 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #F5F5F5;;
+  background-color: var(--brand-color-white);
+  letter-spacing: 0.03em;
+  font-size: 14px;
 }
 
 :root
@@ -24,18 +26,16 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
   color: var(--brand-color-light-blue);
 }
 
 .title-foot
 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: calc(31 / 26);
-    letter-spacing: 0.03em;
-    color: var(--brand-color-light-blue);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: var(--brand-color-light-blue);
 }
 
 .title-second {
@@ -43,8 +43,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
-  color: #000000;;
+  color: #000000;
 }
 
 .title-second-foot
@@ -53,13 +52,11 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
-    letter-spacing: 0.03em;
     color: var(--brand-color-white);
 }
 
 .nav-list {
   font-weight: 500;
-  font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--brand-color-grey);
@@ -75,7 +72,6 @@ body {
 .nav-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--brand-color-light-grey);
@@ -87,7 +83,6 @@ body {
   font-size: 16px;
   line-height: calc(26 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--brand-color-grey);
   cursor: pointer;
 }
@@ -113,25 +108,18 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  letter-spacing: 0.03em;
   color: var(--brand-color-light-grey);
 }
 
 .foot-link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
   color: var(--brand-color-white);
 }
 
 .address-link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -159,20 +147,19 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--brand-color-white);
+  background-color: var(--brand-color-light-blue);
   cursor: pointer;
 }
 
 .btn-studio:hover,
 .btn-studio:focus {
-  background: #2196F3;
+  background: #188CE8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .about-studio {
   font-weight: 700;
-  font-size: 14px;
   line-height: calc(16 / 14);
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color-grey);
 }
@@ -191,36 +178,27 @@ body {
 }
 
 .mini-title-studio {
-  font-weight: 700;
-  font-size: 14px;
   line-height: calc(16 / 14);
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color-grey);
 }
 
 .description-studio {
-  font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
   color: var(--brand-color-light-grey);
 }
 
 .photos {
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--brand-color-grey);
 }
 
 .members {
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--brand-color-grey);
 }
 
@@ -229,7 +207,6 @@ body {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--brand-color-grey);
 }
 
@@ -238,6 +215,10 @@ body {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
+
   color: var(--brand-color-light-grey);
+}
+
+.footer{
+  font-style: normal;
 }
