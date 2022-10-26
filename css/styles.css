@@ -178,6 +178,7 @@ body {
 }
 
 .mini-title-studio {
+  font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
   color: var(--brand-color-grey);
@@ -221,4 +222,9 @@ body {
 
 .footer{
   font-style: normal;
+}
+
+.current
+{
+  color: var(--brand-color-light-blue);
 }
